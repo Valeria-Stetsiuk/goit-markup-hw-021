@@ -4,7 +4,7 @@
     --title-text-color:#212121;
     ----secondary-text-color: #FFFFFF;
     --accent-color:#2196F3;
-    --primary-bg-color: #F5F4FA;
+    --primary-bg-color: #FFFFFF;
     --secondary-bg-color: #F5F4FA;
 }
 
@@ -17,6 +17,7 @@ body{
 .list{
     list-style: none;
 }
+/*Logo*/
 .logo{
 color: var(--title-text-color);
 font-family: Raleway, cursive;
@@ -65,6 +66,9 @@ font-weight: 700;
         letter-spacing: 0.06em;
 
 }
+.effect, .adress{
+    background-color: #2F303A;;
+}
 /* Section*/
 .section-title{
     color: var(--title-text-color);
@@ -91,6 +95,9 @@ font-weight: 700;
         font-size: 16px;
         line-height: 1.18;
 }
+.teams{
+    background-color: var(--secondary-bg-color);
+}
 /* Button*/
 .button{
     color: var(--accent-color);
@@ -105,17 +112,8 @@ font-weight: 700;
     color: var(--primary-bg-color);
     background: var(--accent-color);
 }
-.button.secondary {
-    color: var(--title-text-color);
-    background: var(--primary-bg-color);
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
-}
-.button.secondary:hover{
-color: var(--accent-color);
-}
 
+/* Address*/
 .address-list .link{
 color: var(----secondary-text-color);
     font-weight: 500;
@@ -128,8 +126,28 @@ color: var(----secondary-text-color);
     color: var(--accent-color);
 }
 
-/*portfolio css */
+                /*portfolio css */
 
 .work-list .title {
     color: var(--title-text-color);
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.work-list .text{
+        font-size: 16px;
+        line-height: 1.87;
+}
+/* Button*/
+.button.secondary {
+    color: var(--title-text-color);
+    background: var(--primary-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.button.secondary:hover {
+    color: var(--accent-color);
 }
