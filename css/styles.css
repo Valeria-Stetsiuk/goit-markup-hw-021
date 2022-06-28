@@ -96,6 +96,9 @@ font-family: Raleway, cursive;
         text-align: center;
 }
 /* Features*/
+.title{
+    font-size: 14px;
+}
 .feature-list .title{
     color: var(--title-text-color);
         line-height: 1.14;
@@ -114,15 +117,18 @@ font-family: Raleway, cursive;
     background-color: var(--secondary-bg-color);
 }
 /* Button*/
-.button:hover,.button:focus{
+.button{
     color: var(--accent-color);
     background: var(--primary-bg-color) ;
-    font-family: Roboto, sans-serif;
+    font-family: inherit;
     font-weight: 700;
         font-size: 16px;
         line-height: 1.8;
-        letter-spacing: 0.06em;
-        
+        letter-spacing: 0.06em;      
+}
+.button:focus,.button:focus{
+    color: var(--accent-color);
+    background: var(--primary-bg-color);
 }
 .button.primary{
     color: var(--primary-bg-color);
@@ -150,6 +156,9 @@ address {
 .tel:hover,.tel:focus{
     color: var(--accent-color);
 }
+.mail:hover,.mail:focus {
+    color: var(--accent-color);
+}
 
 
                 /*portfolio css */
@@ -165,18 +174,18 @@ address {
         line-height: 1.87;
 }
 /* Button*/
+
 .button.secondary {
-    color: var(--primary-bg-color);
-    background-color: var(--accent-color);
-    font-weight: 500;
-        line-height: 1.62;
-        letter-spacing: 0.03em;
-}
-.button.third {
+    font-family: inherit;
     color: var(--title-text-color);
     background: var(--secondary-bg-color);
     font-weight: 500;
     line-height: 1.62;
     letter-spacing: 0.03em;
+}
+.button.secondary:hover,.button.secondary:focus{
+    font-family: inherit;
+    color: var(--secondary-text-color);
+        background: var(--accent-color);
 }
 
