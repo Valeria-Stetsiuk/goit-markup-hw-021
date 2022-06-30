@@ -188,4 +188,10 @@ address {
     color: var(--secondary-text-color);
         background: var(--accent-color);
 }
+.button.secondary.active{
+    font-family: inherit;
+        color: var(--secondary-text-color);
+        background: var(--accent-color);
+}
+
 
